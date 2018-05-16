@@ -2,6 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
+// inheritance
+/* 
+ 
+     */
 public class startandupdate : MonoBehaviour {
 
 	// Use this for initialization
