@@ -20,9 +20,11 @@ public class animal : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+
+        float translation = Time.deltaTime * 3;
         
-        transform.Rotate(Speed, Speed, Speed);
-        transform.Translate(Speed, 0, 0);
+        transform.Rotate(2, 2, Speed);
+        transform.Translate(translation, 0, 0);
         //transform.Rotate(Random(int),Random(int), Random(int);
     }
 }
