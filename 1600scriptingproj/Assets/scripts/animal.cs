@@ -2,15 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class animal : ScriptableObject {
+[CreateAssetMenu()] // function to create a menu: animal assets
+public class Animal : ScriptableObject {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    public float Health = 1.00f;
+    public float Speed = 1.0f;
+    public float Strength = 1.0f;
+
+    public int LegCount = 2;
+
+
 }
