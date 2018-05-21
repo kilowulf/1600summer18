@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class animal : ScriptableObject {
+public class Fish : Animal {
+
+    public int ScaleCount;
 
 	// Use this for initialization
 	void Start () {
