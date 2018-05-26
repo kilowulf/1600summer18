@@ -8,7 +8,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ba9f81992bf9f84b89465f4490b5b59, type: 3}
-  m_Name: New Power Up Basenew power up
+  m_Script: {fileID: 11500000, guid: ba32877b489ec3b40aea12963952cc05, type: 3}
+  m_Name: TwoHandedWeapon
   m_EditorClassIdentifier: 
-  PowerLevel: 3.48
+  Weight: 0
+  Quality: 0
+  Damage: 0
+  Value: 0
+  Durability: 0

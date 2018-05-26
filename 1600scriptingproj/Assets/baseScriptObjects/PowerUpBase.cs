@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu()]
+
 public class PowerUpBase : ScriptableObject {
 
     //Range sets low to high permitted parameter
