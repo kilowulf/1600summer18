@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu()]
-public class AmmoPowerUp : PowerUpBase
-{
-    
+public class PlateHelm : Armor {
+
+    public int Encumberance;
+	
 }

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu()]
-public class AmmoPowerUp : PowerUpBase
-{
-    
+public class Armor : ArmorBase {
+
+   
 }
