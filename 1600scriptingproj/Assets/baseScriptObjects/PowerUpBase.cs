@@ -5,12 +5,14 @@ using UnityEngine;
 
 public class PowerUpBase : ScriptableObject {
 
+    public Animal AnyAnimal;
+
     //Range sets low to high permitted parameter
-   [Range(0, 10)] public float PowerLevel = 10.0f;
+    public float PowerLevel = 1.0f;
 
     //onEnable runs when powerbase is enabled
-    private void OnEnable()
+    public void RunPowerUp ()
     {
-        Debug.Log("Power Up");
+        AnyAnimal.Health += PowerLevel;
     }
 }

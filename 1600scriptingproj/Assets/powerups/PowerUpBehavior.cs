@@ -7,9 +7,8 @@ public class PowerUpBehavior : MonoBehaviour {
 
     public PowerUpBase PowerUp;
 
-    //mouse down event yields PowerUp
-    private void OnMouseDown()
+    private void OnTriggerEnter()
     {
-        Debug.Log("PowerUp.PowerLevel");
+        gameObject.SetActive(false);
     }
 }
