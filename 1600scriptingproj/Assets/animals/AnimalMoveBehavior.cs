@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class AnimalMoveBehavior : MonoBehaviour {
 
-    public float Speed = 2.20f;
+    public float Xspeed = 2.20f;
+    public float Yspeed = 2.20f;
+    public float Zspeed = 2.20f;
+    public float Vspeed = 2.20f;
     public int Direction;
 	// Use this for initialization
 	void Start () {
@@ -14,7 +17,7 @@ public class AnimalMoveBehavior : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        transform.Rotate(Speed, Speed, Speed);
-        transform.Translate(Speed, 0, 0);
+        transform.Rotate(Xspeed, Yspeed, Zspeed);
+        transform.Translate(Vspeed, 0, 0);
     }
 }
