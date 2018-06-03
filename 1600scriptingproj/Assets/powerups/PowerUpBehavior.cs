@@ -9,6 +9,8 @@ public class PowerUpBehavior : MonoBehaviour {
 
     private void OnTriggerEnter()
     {
+        // function call to add health power up
+        PowerUp.RunPowerUp();
         // will turn of game object
         gameObject.SetActive(false);
     }

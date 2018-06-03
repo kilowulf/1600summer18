@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class weaponBehavior : MonoBehaviour {
+public class WeaponBehavior : MonoBehaviour {
 
     public WeaponBase WeaponBoost;
 

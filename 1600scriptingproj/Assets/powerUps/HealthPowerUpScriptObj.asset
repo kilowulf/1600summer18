@@ -11,4 +11,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 900c18e5a30063f43a01892da85d09f7, type: 3}
   m_Name: HealthPowerUpScriptObj
   m_EditorClassIdentifier: 
+  AnyAnimal: {fileID: 11400000, guid: 38f4f5fc3d62de742b0a9dc2972e8a2f, type: 2}
   PowerLevel: 1
