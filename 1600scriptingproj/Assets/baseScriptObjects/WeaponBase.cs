@@ -14,4 +14,13 @@ public class WeaponBase : ScriptableObject {
     {
         Debug.Log("Strike!!");
     }
+
+    public PowerUpBase PowerUp;
+
+
+    // custom function for adding health
+    public void UpdateDurability()
+    {
+         Durability -= PowerUp.PowerLevel;
+    }
 }

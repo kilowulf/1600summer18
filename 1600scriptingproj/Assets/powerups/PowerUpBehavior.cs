@@ -9,6 +9,9 @@ public class PowerUpBehavior : MonoBehaviour {
 
     private void OnTriggerEnter()
     {
+        // will turn of game object
         gameObject.SetActive(false);
     }
+
+
 }

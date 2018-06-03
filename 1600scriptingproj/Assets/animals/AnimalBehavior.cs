@@ -4,10 +4,21 @@ using UnityEngine;
 
 public class AnimalBehavior : MonoBehaviour {
 
-    public Animal AnimalInfo;   
+    public Animal AnimalInfo;
+
+    void Start()
+    {
+        print(AnimalInfo.Health);
+    }
+
+    // health update on collision
+    private void OnTriggerEnter()
+    {
+        AnimalInfo.UpdateHealth();
+    }
 
 
-   
+
 
 
 }
