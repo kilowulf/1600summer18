@@ -6,12 +6,13 @@ using UnityEngine.UI;
 public class HealthBehavior : MonoBehaviour {
 
     public FloatData HealthImage;
-    public float HealthLevel = 1.0f;
-
+    public  FloatData HealthLevel;
+    //public Image HealthImage;
+    
 	// Use this for initialization
 	void Start () {
         // sets health image at start
-        HealthImage = GetComponent<Image>();
+        //HealthImage = GetComponent<Image>();
 	}
 	
 	// Update is called once per frame

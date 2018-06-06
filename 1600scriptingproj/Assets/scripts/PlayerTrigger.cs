@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class PlayerTrigger : MonoBehaviour {
 
     public FloatData HealthLevel;
@@ -17,7 +18,6 @@ public class PlayerTrigger : MonoBehaviour {
 	
 	// Update is called once per frame
 	void OnTriggerEnter () {
-        HealthLevel.Value -= EvilPower.Value;
-        
+        HealthLevel.Value -= EvilPower.Value;        
 	}
 }
