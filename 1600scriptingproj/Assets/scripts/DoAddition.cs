@@ -2,15 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DoAddition : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
+
+public class DoAddition : ScriptableObject  {
+
+    public int Run()
+    {
+        return a += b;
+    }
 	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 }
