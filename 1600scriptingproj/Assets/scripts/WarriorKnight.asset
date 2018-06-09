@@ -8,8 +8,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 900c18e5a30063f43a01892da85d09f7, type: 3}
-  m_Name: New Health Power Up
+  m_Script: {fileID: 11500000, guid: 94b87805bbb820142a0e3490b3d02cb2, type: 3}
+  m_Name: WarriorKnight
   m_EditorClassIdentifier: 
-  AnyAnimal: {fileID: 11400000, guid: 1539506fc1cfa2a4e965756a02e9333c, type: 2}
-  PowerLevel: 5
+  name: Iseld
+  description: Knight of the Dawn
+  artwork: {fileID: 0}
+  manaCost: 0
+  attack: 0
+  health: 10

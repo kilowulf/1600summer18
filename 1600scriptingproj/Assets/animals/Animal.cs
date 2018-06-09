@@ -6,12 +6,12 @@ using UnityEngine;
 public class Animal : ScriptableObject {
 
     // capitalize public variables, class names
-    public float Health = 1.00f;
+    public float Health = 1.0f;
     public float Speed = 1.0f;
     public float Strength = 1.0f;
-
     public int LegCount = 2;
 
+<<<<<<< HEAD
     // connect behavior scripts
     //public PowerUpBase PowerUp;
     public WeaponBase WeaponDamage;
@@ -27,6 +27,15 @@ public class Animal : ScriptableObject {
     public void DamageToHealth()
     {   // reduce health by Damage float
         Health -= WeaponDamage.Damage;
+=======
+    public PowerUpBase PowerUp;
+
+
+    // custom function for adding health
+    public void UpdateHealth()
+    {
+        Health += PowerUp.PowerLevel;
+>>>>>>> master
     }
 
 }
