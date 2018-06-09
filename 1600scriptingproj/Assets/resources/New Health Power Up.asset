@@ -11,4 +11,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 900c18e5a30063f43a01892da85d09f7, type: 3}
   m_Name: New Health Power Up
   m_EditorClassIdentifier: 
-  PowerLevel: 2.25
+  AnyAnimal: {fileID: 11400000, guid: 1539506fc1cfa2a4e965756a02e9333c, type: 2}
+  PowerLevel: 5

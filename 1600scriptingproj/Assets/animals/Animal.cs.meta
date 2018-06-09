@@ -1,10 +1,11 @@
 fileFormatVersion: 2
 guid: 7ee33592e5c766046bf2cc215b0de5fc
-timeCreated: 1526920955
-licenseType: Pro
 MonoImporter:
+  externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - PowerUp: {instanceID: 0}
+  - WeaponDamage: {fileID: 11400000, guid: 5c232f3a2e6f6624fb9f468a3f0a2681, type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

@@ -12,5 +12,21 @@ public class Animal : ScriptableObject {
 
     public int LegCount = 2;
 
+    // connect behavior scripts
+    //public PowerUpBase PowerUp;
+    public WeaponBase WeaponDamage;
+
+    // update health function
+    //public void UpdateHealth()
+    //{
+        // function operation
+     //   Health += PowerUp.PowerLevel;
+    //}
+
+    // simulate damage taken
+    public void DamageToHealth()
+    {   // reduce health by Damage float
+        Health -= WeaponDamage.Damage;
+    }
 
 }

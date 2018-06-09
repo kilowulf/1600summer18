@@ -5,14 +5,22 @@ using UnityEngine;
 public class AnimalBehavior : MonoBehaviour {
 
     public Animal AnimalInfo;
+    
 
-	// Use this for initialization
-	void Start () {
-        print(AnimalInfo.Health);
-	}
 	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    // coliision results in health update
+    //private void OnTriggerEnter()
+    //{
+        // health increase on collision
+        //AnimalInfo.UpdateHealth();
+        //Debug.Log(AnimalInfo.Health);
+
+        // health damage on collision
+        //AnimalInfo.DamageToHealth();
+        //Debug.Log(AnimalInfo.Health);
+  //}
+
+    
+
+
 }

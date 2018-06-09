@@ -3,13 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PowerUpBehavior : MonoBehaviour {
-    // behavior can apply across classes
-
+    
     public PowerUpBase PowerUp;
 
-    //mouse down event yields PowerUp
-    private void OnMouseDown()
+    private void OnTriggerEnter()
     {
-        Debug.Log("PowerUp.PowerLevel");
+        // runs power up method before de-activating
+        PowerUp.RunPowerUp();
+
+        // mono methods to switch off a object; make disappear
+        // gameObject self reference to the powerup object
+        gameObject.SetActive(false);
     }
 }

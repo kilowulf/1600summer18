@@ -6,11 +6,11 @@ public class WeaponBase : ScriptableObject {
 
     public float Weight;
     [Range(1, 3)] public int Quality;
-    [Range(1, 20)] public float Damage;
+    [Range(1, 20)] public float Damage = 10.0f;
     [Range(1, 1000)] public float Value;
     [Range(1, 100)] public float Durability;
 
-    private void OnEnable()
+    private void OnTriggerEnter()
     {
         Debug.Log("Strike!!");
     }

@@ -8,11 +8,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ba32877b489ec3b40aea12963952cc05, type: 3}
-  m_Name: OneHandedSword
+  m_Script: {fileID: 11500000, guid: 900c18e5a30063f43a01892da85d09f7, type: 3}
+  m_Name: HealthStandard
   m_EditorClassIdentifier: 
-  Weight: 10
-  Quality: 1
-  Damage: 0
-  Value: 0
-  Durability: 0
+  AnyAnimal: {fileID: 11400000, guid: 1539506fc1cfa2a4e965756a02e9333c, type: 2}
+  PowerLevel: 10
