@@ -10,6 +10,6 @@ public class FloatData : ScriptableObject
 
     [Range(0, 1)] public float Value;
     public float HealthLevel = 1.0f;
-    public float FillAmount;
+    public float FillAmount = 1.0f;
 
 }

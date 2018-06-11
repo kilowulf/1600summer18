@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+
 
 public class ColorBehavior : MonoBehaviour {
 
@@ -8,7 +10,7 @@ public class ColorBehavior : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        ChangeColor.ColorUI(getComponent<Image>());
+        ChangeColor.ColorUI(GetComponent<Image>());
 	}
 	
 	

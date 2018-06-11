@@ -11,7 +11,7 @@ public class Animal : ScriptableObject {
     public float Strength = 1.0f;
     public int LegCount = 2;
 
-<<<<<<< HEAD
+
     // connect behavior scripts
     //public PowerUpBase PowerUp;
     public WeaponBase WeaponDamage;
@@ -19,15 +19,16 @@ public class Animal : ScriptableObject {
     // update health function
     //public void UpdateHealth()
     //{
-        // function operation
-     //   Health += PowerUp.PowerLevel;
+    // function operation
+    //   Health += PowerUp.PowerLevel;
     //}
 
     // simulate damage taken
     public void DamageToHealth()
     {   // reduce health by Damage float
         Health -= WeaponDamage.Damage;
-=======
+    }
+
     public PowerUpBase PowerUp;
 
 
@@ -35,7 +36,7 @@ public class Animal : ScriptableObject {
     public void UpdateHealth()
     {
         Health += PowerUp.PowerLevel;
->>>>>>> master
+
     }
 
 }
