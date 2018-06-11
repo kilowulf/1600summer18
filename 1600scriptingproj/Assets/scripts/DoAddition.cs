@@ -2,31 +2,23 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-<<<<<<< HEAD
+
+public class DoAddition : ScriptableObject
+{
 
 
-public class DoAddition : ScriptableObject  {
+    public int c;
 
-    public int Run()
+    public int Run(int a, int b)
     {
         return a += b;
     }
-	
-=======
-[CreateAssetMenu()]
-public class DoAddition : ScriptableObject{
-
-    public int c;
 
     private void OnEnable()
     {
         c = Run(10, 2);
     }
 
-    // functions can run return data; declare datatype
-	public int Run(int a, int b)
-    {
-        return a += b;
-    }
->>>>>>> master
 }
+
+
