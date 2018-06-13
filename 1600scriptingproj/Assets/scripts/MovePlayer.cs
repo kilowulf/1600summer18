@@ -11,10 +11,10 @@ public class MovePlayer : MonoBehaviour {
     private CharacterController controller;
     private Vector3 newPosition;
     public float Speed = 10.0f;
-    public float Gravity = 9.81f;
-    public float JumpSpeed = 10.0f;
-
-
+    public float Gravity = 3.2f;
+    public float JumpSpeed = 20.0f;
+    public bool CanRun = true;
+    
     // function to characterController
     void Start()
     {
@@ -24,14 +24,21 @@ public class MovePlayer : MonoBehaviour {
 
     void Update()
     {
-        // create a jump function
-        if (Input.GetKeyDown(KeyCode.Space))
+        // create a jump function, isGrounded req. object to be grounded
+        if (Input.GetKeyDown(KeyCode.Space) && controller.isGrounded)
         {
             newPosition.y = JumpSpeed;
         }
 
         newPosition.y -= Gravity;
-        newPosition.x = Speed*Input.GetAxis("Horizontal");
+        // movement along x axis
+        if (CanRun)
+        {
+            newPosition.x = Speed * Input.GetAxis("Horizontal");
+            newPosition.z = Speed * Input.GetAxis("Vertical");
+        }
+        // movement along z axis; alternate to horizontal
+        
         controller.Move(newPosition * Time.deltaTime);
     }
 }
