@@ -1,17 +1,22 @@
 
-﻿using System.Collections;
+ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class AnimalBehavior : MonoBehaviour {
 
     public Animal AnimalInfo;
-    
 
-	
+
+     void Start()
+    {
+        print(AnimalInfo.Health);
+    }
+
+
     // coliision results in health update
-    //private void OnTriggerEnter()
-    //{
+    private void OnTriggerEnter()
+    {
         // health increase on collision
         //AnimalInfo.UpdateHealth();
         //Debug.Log(AnimalInfo.Health);
@@ -19,7 +24,7 @@ public class AnimalBehavior : MonoBehaviour {
         // health damage on collision
         //AnimalInfo.DamageToHealth();
         //Debug.Log(AnimalInfo.Health);
-  //}
+    }
 
     
 

@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e9e381f6-e9cc-4369-a2fe-b849d9edbb4a" name="Default" comment="" />
+    <list default="true" id="e9e381f6-e9cc-4369-a2fe-b849d9edbb4a" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.1600scriptingproj/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.1600scriptingproj/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.1600scriptingproj/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.1600scriptingproj/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/1600scriptingproj/v15/Server/sqlite3/storage.ide-shm" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/1600scriptingproj/v15/Server/sqlite3/storage.ide-shm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/1600scriptingproj/v15/Server/sqlite3/storage.ide-wal" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/1600scriptingproj/v15/Server/sqlite3/storage.ide-wal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/animals/AnimalBehavior.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/animals/AnimalBehavior.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/animals/Horse.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/animals/Horse.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/baseScriptObjects/PowerUpBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/baseScriptObjects/PowerUpBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/first.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/first.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/powerUps/HealthStandard.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/powerUps/HealthStandard.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/powerUps/PowerUpBehavior.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/powerups/PowerUpBehavior.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/powerups/healthPowerUp.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/powerups/healthPowerUp.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/HealthBehavior.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/HealthBehavior.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/HealthLevelFloatData.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/HealthLevelFloatData.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/WeaponBase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/WeaponBase.cs.meta" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,15 +31,108 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="PowerUpBehavior.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/powerUps/PowerUpBehavior.cs">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Animal.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/animals/Animal.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
+              <folding>
+                <marker date="1528681705454" expanded="false" signature="6:78" ph="..." />
+                <marker date="1528681705454" expanded="true" signature="183:918" ph="{...}" />
+                <marker date="1528681705454" expanded="true" signature="366:427" ph="/* connect behavior scripts ... */" />
+                <marker date="1528681705454" expanded="true" signature="469:638" ph="/* update health function ... */" />
+                <marker date="1528681705454" expanded="true" signature="671:757" ph="{...}" />
+                <marker date="1528681705454" expanded="true" signature="864:915" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AnimalBehavior.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/animals/AnimalBehavior.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+              <folding>
+                <marker date="1529039280637" expanded="false" signature="8:80" ph="..." />
+                <marker date="1529039280637" expanded="true" signature="126:559" ph="{...}" />
+                <marker date="1529039280637" expanded="true" signature="178:224" ph="{...}" />
+                <marker date="1529039280637" expanded="true" signature="302:549" ph="{...}" />
+                <marker date="1529039280637" expanded="true" signature="317:543" ph="/* health increase on collision ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PowerUpBase.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/baseScriptObjects/PowerUpBase.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <marker date="1529041021805" expanded="false" signature="8:80" ph="..." />
+                <marker date="1529041021805" expanded="true" signature="127:526" ph="{...}" />
+                <marker date="1529041021805" expanded="true" signature="317:406" ph="{...}" />
+                <marker date="1529041021805" expanded="true" signature="481:524" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PowerUpBehavior.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/baseScriptObjects/PowerUpBehavior.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <marker date="1528514857264" expanded="true" signature="8:80" ph="..." />
+                <marker date="1528514857264" expanded="true" signature="127:457" ph="{...}" />
+                <marker date="1528514857264" expanded="true" signature="200:455" ph="{...}" />
+                <marker date="1528514857264" expanded="true" signature="299:412" ph="/* mono methods to switch off a object; make disappear ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IfStatements.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/scripts/IfStatements.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <folding>
-                <marker date="1528128039442" expanded="false" signature="6:78" ph="..." />
-                <marker date="1528128039442" expanded="true" signature="125:402" ph="{...}" />
-                <marker date="1528128039442" expanded="true" signature="235:398" ph="{...}" />
+                <marker date="1529036725907" expanded="false" signature="6:78" ph="..." />
+                <marker date="1529036725907" expanded="true" signature="146:380" ph="{...}" />
+                <marker date="1529036725907" expanded="true" signature="233:377" ph="{...}" />
+                <marker date="1529036725907" expanded="true" signature="263:314" ph="{...}" />
+                <marker date="1529036725907" expanded="true" signature="319:371" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WeaponScriptObject.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/weapons/WeaponScriptObject.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1528512790969" expanded="false" signature="6:78" ph="..." />
+                <marker date="1528512790969" expanded="true" signature="131:137" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Weapons.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/weapons/Weapons.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="30" column="22" lean-forward="true" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+              <folding>
+                <marker date="1529465761292" expanded="false" signature="6:112" ph="..." />
+                <marker date="1529465761292" expanded="true" signature="151:1163" ph="{...}" />
+                <marker date="1529465761292" expanded="true" signature="241:293" ph="{...}" />
+                <marker date="1529465761292" expanded="true" signature="414:1161" ph="{...}" />
+                <marker date="1529465761292" expanded="true" signature="482:1158" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -30,7 +144,24 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/powerUps/PowerUpBehavior.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/scripts/IfStatements.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/animals/AnimalBehavior.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/baseScriptObjects/PowerUpBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/animals/Animal.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/baseScriptObjects/PowerUpBehavior.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/weapons/WeaponScriptObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/weapons/Weapons.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/baseScriptObjects/WarriorClassBase.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/animals/AnimalBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/scripts/Weapons.cs" />
+        <option value="$PROJECT_DIR$/Assets/scripts/WeaponObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/weapons/Weapons.cs" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -38,22 +169,21 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="260" />
-    <option name="y" value="20" />
-    <option name="width" value="1004" />
-    <option name="height" value="1000" />
+    <option name="x" value="15" />
+    <option name="y" value="345" />
+    <option name="width" value="707" />
+    <option name="height" value="706" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="UnityExplorer" proportions="" version="1">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="SolutionExplorer">
-        <option name="show-file-system" value="false" />
-        <option name="show-all-items" value="false" />
-      </pane>
       <pane id="Scratches" />
       <pane id="UnityExplorer">
         <subPane>
@@ -66,6 +196,19 @@
           <select />
         </subPane>
         <option name="show-hidden-items" value="false" />
+      </pane>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="1600scriptingproj (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
       </pane>
     </panes>
   </component>
@@ -86,6 +229,12 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -97,11 +246,18 @@
       <option name="presentableId" value="Default" />
       <updated>1528129806711</updated>
       <workItem from="1528129808811" duration="135000" />
+      <workItem from="1529038201525" duration="139000" />
+      <workItem from="1529038560876" duration="46000" />
+      <workItem from="1529038914066" duration="1040000" />
+      <workItem from="1529039971795" duration="575000" />
+      <workItem from="1529040644149" duration="651000" />
+      <workItem from="1529121322337" duration="616000" />
+      <workItem from="1529462097268" duration="3237000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135000" />
+    <option name="totallyTimeSpent" value="6439000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -113,47 +269,374 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="260" y="20" width="1004" height="1000" extended-state="0" />
+    <frame x="15" y="345" width="707" height="706" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Errors In Solution" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Unit Tests" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.4498934" side_tool="true" weight="0.21140142" />
+      <window_info anchor="bottom" id="Unit Tests" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" sideWeight="0.5501066" visible="true" weight="0.15845071" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Version Control" visible="true" weight="0.32946634" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="NuGet" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.35487288" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.089644514" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unity" order="8" />
+      <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="NuGet" order="7" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="UnityProjectConfiguration" isUnityUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/powerUps/PowerUpBehavior.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/animals/Animal.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <marker date="1528681705454" expanded="false" signature="6:78" ph="..." />
+            <marker date="1528681705454" expanded="true" signature="183:918" ph="{...}" />
+            <marker date="1528681705454" expanded="true" signature="366:427" ph="/* connect behavior scripts ... */" />
+            <marker date="1528681705454" expanded="true" signature="469:638" ph="/* update health function ... */" />
+            <marker date="1528681705454" expanded="true" signature="671:757" ph="{...}" />
+            <marker date="1528681705454" expanded="true" signature="864:915" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/animals/AnimalBehavior.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+          <folding>
+            <marker date="1529039280637" expanded="false" signature="8:80" ph="..." />
+            <marker date="1529039280637" expanded="true" signature="126:559" ph="{...}" />
+            <marker date="1529039280637" expanded="true" signature="178:224" ph="{...}" />
+            <marker date="1529039280637" expanded="true" signature="302:549" ph="{...}" />
+            <marker date="1529039280637" expanded="true" signature="317:543" ph="/* health increase on collision ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/baseScriptObjects/PowerUpBase.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <marker date="1529041021805" expanded="false" signature="8:80" ph="..." />
+            <marker date="1529041021805" expanded="true" signature="127:526" ph="{...}" />
+            <marker date="1529041021805" expanded="true" signature="317:406" ph="{...}" />
+            <marker date="1529041021805" expanded="true" signature="481:524" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/baseScriptObjects/PowerUpBehavior.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <marker date="1528514857264" expanded="true" signature="8:80" ph="..." />
+            <marker date="1528514857264" expanded="true" signature="127:457" ph="{...}" />
+            <marker date="1528514857264" expanded="true" signature="200:455" ph="{...}" />
+            <marker date="1528514857264" expanded="true" signature="299:412" ph="/* mono methods to switch off a object; make disappear ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/scripts/IfStatements.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
-            <marker date="1528128039442" expanded="false" signature="6:78" ph="..." />
-            <marker date="1528128039442" expanded="true" signature="125:402" ph="{...}" />
-            <marker date="1528128039442" expanded="true" signature="235:398" ph="{...}" />
+            <marker date="1529036725907" expanded="false" signature="6:78" ph="..." />
+            <marker date="1529036725907" expanded="true" signature="146:380" ph="{...}" />
+            <marker date="1529036725907" expanded="true" signature="233:377" ph="{...}" />
+            <marker date="1529036725907" expanded="true" signature="263:314" ph="{...}" />
+            <marker date="1529036725907" expanded="true" signature="319:371" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/animals/Animal.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <marker date="1528681705454" expanded="false" signature="6:78" ph="..." />
+            <marker date="1528681705454" expanded="true" signature="183:918" ph="{...}" />
+            <marker date="1528681705454" expanded="true" signature="366:427" ph="/* connect behavior scripts ... */" />
+            <marker date="1528681705454" expanded="true" signature="469:638" ph="/* update health function ... */" />
+            <marker date="1528681705454" expanded="true" signature="671:757" ph="{...}" />
+            <marker date="1528681705454" expanded="true" signature="864:915" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/animals/AnimalBehavior.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+          <folding>
+            <marker date="1529039280637" expanded="false" signature="8:80" ph="..." />
+            <marker date="1529039280637" expanded="true" signature="126:559" ph="{...}" />
+            <marker date="1529039280637" expanded="true" signature="178:224" ph="{...}" />
+            <marker date="1529039280637" expanded="true" signature="302:549" ph="{...}" />
+            <marker date="1529039280637" expanded="true" signature="317:543" ph="/* health increase on collision ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/baseScriptObjects/PowerUpBase.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <marker date="1529041021805" expanded="false" signature="8:80" ph="..." />
+            <marker date="1529041021805" expanded="true" signature="127:526" ph="{...}" />
+            <marker date="1529041021805" expanded="true" signature="317:406" ph="{...}" />
+            <marker date="1529041021805" expanded="true" signature="481:524" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/baseScriptObjects/PowerUpBehavior.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <marker date="1528514857264" expanded="true" signature="8:80" ph="..." />
+            <marker date="1528514857264" expanded="true" signature="127:457" ph="{...}" />
+            <marker date="1528514857264" expanded="true" signature="200:455" ph="{...}" />
+            <marker date="1528514857264" expanded="true" signature="299:412" ph="/* mono methods to switch off a object; make disappear ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/animals/Animal.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <marker date="1528681705454" expanded="false" signature="6:78" ph="..." />
+            <marker date="1528681705454" expanded="true" signature="183:918" ph="{...}" />
+            <marker date="1528681705454" expanded="true" signature="366:427" ph="/* connect behavior scripts ... */" />
+            <marker date="1528681705454" expanded="true" signature="469:638" ph="/* update health function ... */" />
+            <marker date="1528681705454" expanded="true" signature="671:757" ph="{...}" />
+            <marker date="1528681705454" expanded="true" signature="864:915" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/animals/AnimalBehavior.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+          <folding>
+            <marker date="1529039280637" expanded="false" signature="8:80" ph="..." />
+            <marker date="1529039280637" expanded="true" signature="126:559" ph="{...}" />
+            <marker date="1529039280637" expanded="true" signature="178:224" ph="{...}" />
+            <marker date="1529039280637" expanded="true" signature="302:549" ph="{...}" />
+            <marker date="1529039280637" expanded="true" signature="317:543" ph="/* health increase on collision ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/baseScriptObjects/PowerUpBehavior.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+          <folding>
+            <marker date="1528514857264" expanded="true" signature="8:80" ph="..." />
+            <marker date="1528514857264" expanded="true" signature="127:457" ph="{...}" />
+            <marker date="1528514857264" expanded="true" signature="200:455" ph="{...}" />
+            <marker date="1528514857264" expanded="true" signature="299:412" ph="/* mono methods to switch off a object; make disappear ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/animals/Animal.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+          <folding>
+            <marker date="1528681705454" expanded="false" signature="6:78" ph="..." />
+            <marker date="1528681705454" expanded="true" signature="183:918" ph="{...}" />
+            <marker date="1528681705454" expanded="true" signature="366:427" ph="/* connect behavior scripts ... */" />
+            <marker date="1528681705454" expanded="true" signature="469:638" ph="/* update health function ... */" />
+            <marker date="1528681705454" expanded="true" signature="671:757" ph="{...}" />
+            <marker date="1528681705454" expanded="true" signature="864:915" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/animals/AnimalBehavior.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+          <folding>
+            <marker date="1529039280637" expanded="false" signature="8:80" ph="..." />
+            <marker date="1529039280637" expanded="true" signature="126:559" ph="{...}" />
+            <marker date="1529039280637" expanded="true" signature="178:224" ph="{...}" />
+            <marker date="1529039280637" expanded="true" signature="302:549" ph="{...}" />
+            <marker date="1529039280637" expanded="true" signature="317:543" ph="/* health increase on collision ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/powerUps/PowerUpBehavior.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/animals/Animal.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1528681705454" expanded="false" signature="6:78" ph="..." />
+            <marker date="1528681705454" expanded="true" signature="183:918" ph="{...}" />
+            <marker date="1528681705454" expanded="true" signature="366:427" ph="/* connect behavior scripts ... */" />
+            <marker date="1528681705454" expanded="true" signature="469:638" ph="/* update health function ... */" />
+            <marker date="1528681705454" expanded="true" signature="671:757" ph="{...}" />
+            <marker date="1528681705454" expanded="true" signature="864:915" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/powerUps/PowerUpBehavior.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/animals/Animal.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+          <folding>
+            <marker date="1528681705454" expanded="false" signature="6:78" ph="..." />
+            <marker date="1528681705454" expanded="true" signature="183:918" ph="{...}" />
+            <marker date="1528681705454" expanded="true" signature="366:427" ph="/* connect behavior scripts ... */" />
+            <marker date="1528681705454" expanded="true" signature="469:638" ph="/* update health function ... */" />
+            <marker date="1528681705454" expanded="true" signature="671:757" ph="{...}" />
+            <marker date="1528681705454" expanded="true" signature="864:915" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/powerUps/PowerUpBehavior.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/powerUps/PowerUpBehavior.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/animals/Animal.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <marker date="1528681705454" expanded="false" signature="6:78" ph="..." />
+            <marker date="1528681705454" expanded="true" signature="183:918" ph="{...}" />
+            <marker date="1528681705454" expanded="true" signature="366:427" ph="/* connect behavior scripts ... */" />
+            <marker date="1528681705454" expanded="true" signature="469:638" ph="/* update health function ... */" />
+            <marker date="1528681705454" expanded="true" signature="671:757" ph="{...}" />
+            <marker date="1528681705454" expanded="true" signature="864:915" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/animals/AnimalBehavior.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+          <folding>
+            <marker date="1529039280637" expanded="false" signature="8:80" ph="..." />
+            <marker date="1529039280637" expanded="true" signature="126:559" ph="{...}" />
+            <marker date="1529039280637" expanded="true" signature="178:224" ph="{...}" />
+            <marker date="1529039280637" expanded="true" signature="302:549" ph="{...}" />
+            <marker date="1529039280637" expanded="true" signature="317:543" ph="/* health increase on collision ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/baseScriptObjects/PowerUpBase.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <marker date="1529041021805" expanded="false" signature="8:80" ph="..." />
+            <marker date="1529041021805" expanded="true" signature="127:526" ph="{...}" />
+            <marker date="1529041021805" expanded="true" signature="317:406" ph="{...}" />
+            <marker date="1529041021805" expanded="true" signature="481:524" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/baseScriptObjects/WarriorClassBase.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/baseScriptObjects/PowerUpBehavior.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <marker date="1528514857264" expanded="true" signature="8:80" ph="..." />
+            <marker date="1528514857264" expanded="true" signature="127:457" ph="{...}" />
+            <marker date="1528514857264" expanded="true" signature="200:455" ph="{...}" />
+            <marker date="1528514857264" expanded="true" signature="299:412" ph="/* mono methods to switch off a object; make disappear ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/scripts/Weapons.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/scripts/WeaponObject.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/scripts/IfStatements.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1529036725907" expanded="false" signature="6:78" ph="..." />
+            <marker date="1529036725907" expanded="true" signature="146:380" ph="{...}" />
+            <marker date="1529036725907" expanded="true" signature="233:377" ph="{...}" />
+            <marker date="1529036725907" expanded="true" signature="263:314" ph="{...}" />
+            <marker date="1529036725907" expanded="true" signature="319:371" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/weapons/WeaponScriptObject.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1528512790969" expanded="false" signature="6:78" ph="..." />
+            <marker date="1528512790969" expanded="true" signature="131:137" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/weapons/Weapons.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="30" column="22" lean-forward="true" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+          <folding>
+            <marker date="1529465761292" expanded="false" signature="6:112" ph="..." />
+            <marker date="1529465761292" expanded="true" signature="151:1163" ph="{...}" />
+            <marker date="1529465761292" expanded="true" signature="241:293" ph="{...}" />
+            <marker date="1529465761292" expanded="true" signature="414:1161" ph="{...}" />
+            <marker date="1529465761292" expanded="true" signature="482:1158" ph="{...}" />
           </folding>
         </state>
       </provider>
