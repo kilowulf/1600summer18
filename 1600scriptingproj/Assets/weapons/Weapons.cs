@@ -6,6 +6,7 @@ using UnityEngine;
 public class Weapons : MonoBehaviour {
 
     // create a drop down list; can change behavior on a object
+	// enum user defined object
 	public enum WeaponType
 	{
 		Axe, 
@@ -14,7 +15,7 @@ public class Weapons : MonoBehaviour {
 		Spear,
 		Scimitar,
 	}
-    // array for weaponObjects
+    // array for weaponObjects, aarays are typed; only weapon objects
 	public WeaponObject[] WeaponObjects;
 
 	public WeaponType CurrentWeapon;
