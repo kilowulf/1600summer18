@@ -19,6 +19,6 @@ public class HealthBehavior : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        HealthImage.FillAmount = HealthLevel.Value;
+        //HealthImage.FillAmount = HealthLevel.Value;
 	}
 }

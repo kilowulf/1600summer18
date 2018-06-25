@@ -18,9 +18,9 @@ public class WeaponsCollection : ScriptableObject
 		foreach (var item in Weapons)
 		{
 			Debug.Log(item);
-			
-			// consoles message when in contact with sword object
-			If(item.name == "Sword");
+
+            // consoles message when in contact with sword object
+            if (item.name == "Sword") ;
 			{
 				Debug.Log("You have the best sword!");
 			}
