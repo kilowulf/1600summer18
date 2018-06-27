@@ -17,10 +17,11 @@ public class Ammo : MonoBehaviour {
 	private void Start () {
 
         projectile = GetComponent<Rigidbody>();
-        // addforce (x, y, z)
+        //method Addforce (x, y, z)creates velocity for an object
         projectile.AddForce(0, 0, ProjectileSpeed.Value);
 	}
 
+    // on collision, speed is upgraded
     private void OnTriggerEnter(Collider other)
     {
         // upgrades ammo object
