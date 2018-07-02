@@ -6,7 +6,7 @@ using UnityEngine;
 public class EnchantObject : ScriptableObject
 {
 
-    public float DamageLevel = 10;
+    public float DamageLevel = 20;
 
     public float DoDamage()
     {
