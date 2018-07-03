@@ -50,6 +50,7 @@
           <e p="FloatData.cs" t="Include" />
           <e p="IfStatements.cs" t="Include" />
           <e p="PlayerTrigger.cs" t="Include" />
+          <e p="WhileLoop.cs" t="Include" />
         </e>
         <e p="warriorClass" t="Include">
           <e p="Warrior.cs" t="Include" />
