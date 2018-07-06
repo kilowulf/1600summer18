@@ -13,6 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Weight: 0
   Quality: 0
-  Damage: 0
+  Damage: 20
   Value: 0
   Durability: 0
+  PowerUp: {fileID: 0}

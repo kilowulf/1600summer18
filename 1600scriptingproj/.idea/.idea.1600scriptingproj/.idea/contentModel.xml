@@ -36,6 +36,9 @@
           <e p="CharacterControl.cs" t="Include" />
           <e p="MovePlayer.cs" t="Include" />
         </e>
+        <e p="Player" t="Include">
+          <e p="PlayerTrigger.cs" t="Include" />
+        </e>
         <e p="powerUps" t="Include">
           <e p="AmmoPowerUp.cs" t="Include" />
           <e p="ArmorPowerUp.cs" t="Include" />
@@ -49,8 +52,13 @@
           <e p="DoAddition.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
           <e p="IfStatements.cs" t="Include" />
-          <e p="PlayerTrigger.cs" t="Include" />
           <e p="WhileLoop.cs" t="Include" />
+        </e>
+        <e p="Spells" t="Include">
+          <e p="EnchantCollection.cs" t="Include" />
+          <e p="EnchantObject.cs" t="Include" />
+          <e p="EnchantPickUp.cs" t="Include" />
+          <e p="Enchants.cs" t="Include" />
         </e>
         <e p="warriorClass" t="Include">
           <e p="Warrior.cs" t="Include" />

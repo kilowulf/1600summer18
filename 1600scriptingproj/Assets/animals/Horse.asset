@@ -11,9 +11,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ee33592e5c766046bf2cc215b0de5fc, type: 3}
   m_Name: Horse
   m_EditorClassIdentifier: 
-  Health: 100
+  WeaponDamage: {fileID: 0}
+  Health: 271.8
   Speed: 1.15
   Strength: 1
   LegCount: 2
-  WeaponDamage: {fileID: 0}
-  PowerUp: {fileID: 0}

@@ -15,16 +15,16 @@ public class AnimalBehavior : MonoBehaviour {
 
 
     // coliision results in health update
-    private void OnTriggerEnter()
-    {
+    //private void OnTriggerEnter ()
+    //{
         // health increase on collision
-        //AnimalInfo.UpdateHealth();
+       // AnimalInfo.UpdateHealth();
         //Debug.Log(AnimalInfo.Health);
 
         // health damage on collision
-        //AnimalInfo.DamageToHealth();
-        //Debug.Log(AnimalInfo.Health);
-    }
+       // AnimalInfo.DamageToHealth();
+        ///Debug.Log(AnimalInfo.Health);
+    //}
 
     
 
