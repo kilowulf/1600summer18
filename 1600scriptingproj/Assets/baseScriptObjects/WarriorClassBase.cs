@@ -2,7 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WarriorClassBase : ScriptableObject {
+public class WarriorClassBase : MonoBehaviour
+{
+
+    public Warrior AnyWarrior;
+    
 
     // Attribute Mod Vars
     public int Strength = 2;
@@ -19,6 +23,9 @@ public class WarriorClassBase : ScriptableObject {
     public float UseArmor = 10.00f;
     public float DodgeRoll = 5.00f;
     public float Resolve = 10.00f;
+    
+    //Inventory
+    public int GoldCoins = 0;
 
 
 }

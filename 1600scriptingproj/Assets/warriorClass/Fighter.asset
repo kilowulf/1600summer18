@@ -9,15 +9,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7c5ce838dd88a514fba2d14ed95b9fe4, type: 3}
-  m_Name: FighterRankOne
+  m_Name: Fighter
   m_EditorClassIdentifier: 
-  Strength: 2
-  Constitution: 2
-  Dexterity: 1
-  HealthBonus: 100
-  Stamina: 100
-  WeaponOneHand: 10
-  Shield: 10
-  UseArmor: 10
-  DodgeRoll: 5
-  Resolve: 10
+  AnyWarrior: {fileID: 0}
