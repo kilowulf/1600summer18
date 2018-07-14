@@ -7,7 +7,6 @@ public class AISpawner : MonoBehaviour
 {
 
 	public GameObject AI;
-
 	public Transform Destination;
 	public Level CurrentLevel;
 	private int aiCount;
@@ -24,7 +23,7 @@ public class AISpawner : MonoBehaviour
 
 	private IEnumerator StartSpawn()
 	{
-		while (true)
+		while (aiCount > 0)
 		{
 			//Spawn, instantiate replicates a object
 			//new AI will ref to new gameobject
