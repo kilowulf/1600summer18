@@ -10,7 +10,7 @@ public class FireAmmo : MonoBehaviour {
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Tab))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             // count method gives length of 
             for (int i = 0; i < Ammo.Count; i++)
