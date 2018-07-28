@@ -33,9 +33,10 @@ public class AISpawner : MonoBehaviour
 			// counts down
 			aiCount--;
 			
-			
 			yield return new WaitForSeconds(CurrentLevel.Time);
 		}
+		
+		CurrentLevel.CheckAiCount(aiCount);
 	}
 	
 	
