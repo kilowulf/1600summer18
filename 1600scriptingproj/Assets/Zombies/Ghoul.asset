@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3eb3aec4fb0c8824da070049aa6b8385, type: 3}
+  m_Name: Ghoul
+  m_EditorClassIdentifier: 
+  Bite: {fileID: 11400000, guid: 4f80715e75f182442944d936e6383aa8, type: 2}
+  FeedPowerUp: {fileID: 11400000, guid: a027fe6c424a9564c95217ae4cf99fa8, type: 2}
+  Health: 169
+  Speed: 4
+  Strength: 3
