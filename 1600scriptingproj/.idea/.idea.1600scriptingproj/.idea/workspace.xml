@@ -4,12 +4,7 @@
     <list default="true" id="e9e381f6-e9cc-4369-a2fe-b849d9edbb4a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.1600scriptingproj/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.1600scriptingproj/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.1600scriptingproj/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.1600scriptingproj/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AI/AISpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AI/AISpawner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AI/Level.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AI/Level.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AI/Level2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AI/Level2.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/inclassjuly9_AI.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/inclassjuly9_AI.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/inclassjuly9_AI/NavMesh.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/inclassjuly9_AI/NavMesh.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/inclassjuly9_AI/NavMesh.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/inclassjuly9_AI/NavMesh.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/BallController.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/BallController.controller" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,7 +19,24 @@
         <entry file="file://$PROJECT_DIR$/Assets/Ammo/Ammo.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
+<<<<<<< Updated upstream
               <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+=======
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <marker date="1531535092461" expanded="false" signature="6:78" ph="..." />
+                <marker date="1531535092461" expanded="true" signature="156:210" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AISpawner.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/AI/AISpawner.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+>>>>>>> Stashed changes
               <folding>
                 <marker date="1530119368837" expanded="false" signature="6:78" ph="..." />
                 <marker date="1530119368837" expanded="true" signature="114:944" ph="{...}" />
@@ -36,8 +48,30 @@
           </provider>
         </entry>
       </file>
+<<<<<<< Updated upstream
       <file leaf-file-name="FireAmmo.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Ammo/FireAmmo.cs">
+=======
+      <file leaf-file-name="BounceOnClick.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Animation/BounceOnClick.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="333">
+              <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+              <folding>
+                <marker date="1531984182052" expanded="false" signature="6:78" ph="..." />
+                <marker date="1531984182052" expanded="true" signature="122:542" ph="{...}" />
+                <marker date="1531984182052" expanded="true" signature="173:215" ph="{...}" />
+                <marker date="1531984182052" expanded="true" signature="244:283" ph="{...}" />
+                <marker date="1531984182052" expanded="true" signature="329:368" ph="{...}" />
+                <marker date="1531984182052" expanded="true" signature="393:540" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AIControl.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/AI/AIControl.cs">
+>>>>>>> Stashed changes
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
               <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
@@ -62,12 +96,19 @@
     <setting file="file://$PROJECT_DIR$/Assets/GoldCollect/GoldBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/weapons/WeaponScriptObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/animals/Animal.cs" root0="FORCE_HIGHLIGHTING" />
+<<<<<<< Updated upstream
     <setting file="file://$PROJECT_DIR$/Assets/Ammo/FireAmmo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/weapons/WeaponPickUp.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/weapons/WeaponsCollection.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/AI/Level.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/AI/AIMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/animals/Whale.cs" root0="FORCE_HIGHLIGHTING" />
+=======
+    <setting file="file://$PROJECT_DIR$/Assets/Animation/BounceOnClick.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/warriorClass/Warrior.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/scripts/WhileLoop.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GoldCollect/GoldCoinObject.cs" root0="FORCE_HIGHLIGHTING" />
+>>>>>>> Stashed changes
     <setting file="file://$PROJECT_DIR$/Assets/scripts/FloatData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripts/DoAddition.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Ammo/Ammo.cs" root0="FORCE_HIGHLIGHTING" />
@@ -78,12 +119,24 @@
     <setting file="file://$PROJECT_DIR$/Assets/baseScriptObjects/WarriorClassBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/baseScriptObjects/PowerUpBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripts/IfStatements.cs" root0="FORCE_HIGHLIGHTING" />
+<<<<<<< Updated upstream
     <setting file="file://$PROJECT_DIR$/Assets/AI/AISpawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/baseScriptObjects/PowerUpBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripts/WhileLoop.cs" root0="FORCE_HIGHLIGHTING" />
+=======
+    <setting file="file://$PROJECT_DIR$/Assets/weapons/WeaponPickUp.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AI/Level.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AI/AISpawner.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GoldCollect/GoldBehavior.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AI/AIControl.cs" root0="SKIP_HIGHLIGHTING" />
+>>>>>>> Stashed changes
     <setting file="file://$PROJECT_DIR$/Assets/weapons/Weapon.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/weapons/WeaponBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/weapons/Weapons.cs" root0="FORCE_HIGHLIGHTING" />
+<<<<<<< Updated upstream
+=======
+    <setting file="file://$PROJECT_DIR$/Assets/AI/AIMovement.cs" root0="SKIP_HIGHLIGHTING" />
+>>>>>>> Stashed changes
     <setting file="file://$PROJECT_DIR$/Assets/weapons/WeaponObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/AI/AIControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/animals/Mammal.cs" root0="FORCE_HIGHLIGHTING" />
@@ -118,8 +171,12 @@
         <option value="$PROJECT_DIR$/Assets/scripts/Level.cs" />
         <option value="$PROJECT_DIR$/Assets/animals/Whale.cs" />
         <option value="$PROJECT_DIR$/Assets/AI/Level.cs" />
+<<<<<<< Updated upstream
         <option value="$PROJECT_DIR$/Assets/AI/AISpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Ammo/FireAmmo.cs" />
+=======
+        <option value="$PROJECT_DIR$/Assets/Animation/BounceOnClick.cs" />
+>>>>>>> Stashed changes
       </list>
     </option>
   </component>
@@ -133,10 +190,17 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< Updated upstream
     <option name="x" value="1001" />
     <option name="y" value="26" />
     <option name="width" value="761" />
     <option name="height" value="1037" />
+=======
+    <option name="x" value="132" />
+    <option name="y" value="310" />
+    <option name="width" value="862" />
+    <option name="height" value="795" />
+>>>>>>> Stashed changes
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -226,14 +290,22 @@
       <workItem from="1531153909609" duration="3004000" />
       <workItem from="1531325716167" duration="4774000" />
       <workItem from="1531527628860" duration="4500000" />
+<<<<<<< Updated upstream
       <workItem from="1532361638954" duration="1192000" />
       <workItem from="1532363881971" duration="1793000" />
       <workItem from="1532365831391" duration="1357000" />
+=======
+      <workItem from="1531982590104" duration="1640000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< Updated upstream
     <option name="totallyTimeSpent" value="50146000" />
+=======
+    <option name="totallyTimeSpent" value="47444000" />
+>>>>>>> Stashed changes
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -245,7 +317,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
+<<<<<<< Updated upstream
     <frame x="1001" y="26" width="761" height="1037" extended-state="0" />
+=======
+    <frame x="132" y="310" width="862" height="795" extended-state="0" />
+>>>>>>> Stashed changes
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Errors In Solution" order="3" visible="true" weight="0.115549214" />
@@ -255,7 +331,11 @@
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.54451036" weight="0.1635514" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" />
+<<<<<<< Updated upstream
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.062767476" />
+=======
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.052369077" />
+>>>>>>> Stashed changes
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unity" order="8" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -281,6 +361,30 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< Updated upstream
+=======
+    <entry file="file://$PROJECT_DIR$/Assets/animals/Animal.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/animals/AnimalBehavior.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/baseScriptObjects/PowerUpBase.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> Stashed changes
     <entry file="file://$PROJECT_DIR$/Assets/baseScriptObjects/PowerUpBehavior.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -529,6 +633,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/AI/AISpawner.cs">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="102">
           <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
           <folding>
@@ -601,12 +706,31 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+=======
+        <state>
+          <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+>>>>>>> Stashed changes
           <folding>
             <marker date="1530119368837" expanded="false" signature="6:78" ph="..." />
             <marker date="1530119368837" expanded="true" signature="114:944" ph="{...}" />
             <marker date="1530119368837" expanded="true" signature="335:595" ph="{...}" />
             <marker date="1530119368837" expanded="true" signature="668:705" ph="{...}" />
             <marker date="1530119368837" expanded="true" signature="793:940" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Animation/BounceOnClick.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+          <folding>
+            <marker date="1531984182052" expanded="false" signature="6:78" ph="..." />
+            <marker date="1531984182052" expanded="true" signature="122:542" ph="{...}" />
+            <marker date="1531984182052" expanded="true" signature="173:215" ph="{...}" />
+            <marker date="1531984182052" expanded="true" signature="244:283" ph="{...}" />
+            <marker date="1531984182052" expanded="true" signature="329:368" ph="{...}" />
+            <marker date="1531984182052" expanded="true" signature="393:540" ph="{...}" />
           </folding>
         </state>
       </provider>

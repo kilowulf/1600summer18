@@ -27,6 +27,9 @@
         <e p="Animation" t="Include">
           <e p="bounceOnClick.cs" t="Include" />
         </e>
+        <e p="Animation" t="Include">
+          <e p="BounceOnClick.cs" t="Include" />
+        </e>
         <e p="armor" t="Include">
           <e p="Armor.cs" t="Include" />
           <e p="ArmorBehavior.cs" t="Include" />
