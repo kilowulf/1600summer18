@@ -4,21 +4,18 @@ using UnityEngine;
 
 public class FireAmmo : MonoBehaviour {
 
-    // instantiates object ammo
-    //public GameObject Ammo;
-    public List<GameObject> Ammo;
+    
+    //declare GameObject Ammo;
+    public GameObject Ammo;
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.F))
         {
-            // count method gives length of 
-            for (int i = 0; i < Ammo.Count; i++)
-            {
-                Ammo[i].SetActive(true);
-            }
-            
             //Instantiate(Ammo);
+            Instantiate(Ammo, transform.position, Quaternion.identity);           
+            
+            
         }
         
     }

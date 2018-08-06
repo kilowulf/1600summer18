@@ -5,9 +5,9 @@ using UnityEngine;
 
 public class PlayerTrigger : MonoBehaviour {
 
-    public FloatData HealthLevel;
+
     // dependency created between playerTrig and HealthBeh
-    
+    public FloatData HealthLevel;
     public FloatData EvilPower;
 
 
@@ -18,6 +18,16 @@ public class PlayerTrigger : MonoBehaviour {
 	
 	// Update is called once per frame
 	void OnTriggerEnter () {
-        HealthLevel.Value -= EvilPower.Value;        
+
+        if (HealthLevel.Value > 0)
+        {
+            HealthLevel.Value -= EvilPower.Value;
+        }               
 	}
+
+    // Temp for dev
+    private void OnDisable()
+    {
+        HealthLevel.Value = 1;
+    }
 }

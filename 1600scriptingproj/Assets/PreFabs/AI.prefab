@@ -21,9 +21,10 @@ GameObject:
   - component: {fileID: 4194426913604640}
   - component: {fileID: 33237749818130736}
   - component: {fileID: 23159920250586628}
-  - component: {fileID: 65691381693470238}
   - component: {fileID: 195522956037114750}
   - component: {fileID: 114242902790708028}
+  - component: {fileID: 114415452782931002}
+  - component: {fileID: 65391703068184084}
   m_Layer: 0
   m_Name: AI
   m_TagString: Untagged
@@ -38,8 +39,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1592621822266168}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.47, y: 1.4000001, z: -10.87}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 3.9312027, y: 0.36, z: -11.999148}
+  m_LocalScale: {x: 0.5, y: 2, z: 0.5}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -86,14 +87,14 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1592621822266168}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!65 &65691381693470238
+--- !u!65 &65391703068184084
 BoxCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1592621822266168}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -110,7 +111,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Destination: {fileID: 0}
-  Control: {fileID: 11400000, guid: 314a679991ca2f844b72f629a791fad9, type: 2}
+  Control: {fileID: 11400000, guid: c29474c13a5f8cb408673243f206ef7e, type: 2}
+--- !u!114 &114415452782931002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1592621822266168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a53ed8a29ed98ea46bfe74c50ab36a43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!195 &195522956037114750
 NavMeshAgent:
   m_ObjectHideFlags: 1

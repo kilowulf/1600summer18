@@ -11,5 +11,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea205f940ca154044b6f64320105ff30, type: 3}
   m_Name: Fast Control
   m_EditorClassIdentifier: 
-  Speed: 50
-  AngularSpeed: 90
+  Speed: 20
+  AngularSpeed: 250

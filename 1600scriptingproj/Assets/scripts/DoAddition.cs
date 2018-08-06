@@ -16,7 +16,7 @@ public class DoAddition : ScriptableObject
 
     private void OnEnable()
     {
-        //c = Run(10, 2);
+        c = Run(10, 2);
     }
 
 }
